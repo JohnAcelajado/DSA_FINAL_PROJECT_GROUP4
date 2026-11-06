@@ -1,6 +1,6 @@
-#ifndef QUEUE_H
-#define QUEUE_H
-#include <iostream>
+# ifndef QUEUE_H
+# define QUEUE_H
+# include <iostream>
 
 template <typename T>
 class qNode {
