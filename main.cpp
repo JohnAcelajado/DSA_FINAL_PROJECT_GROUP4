@@ -14,7 +14,7 @@
 
 const std::string FILE_NAME = "reports.txt";
 
-// ---------- input helpers ----------
+// -------- input helpers --------
 int readInt(const std::string& prompt, int low, int high) {
     while (true) {
         std::cout << prompt;
