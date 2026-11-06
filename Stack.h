@@ -13,7 +13,7 @@ bool isEmpty(sNode<T>* topPtr) {
     return topPtr == nullptr;
 }
 
-// add on top - O(1)
+//add on top - O(1)
 template <typename T>
 void push(sNode<T>** topPtr, T newData) {
     sNode<T>* newNode = new sNode<T>;
